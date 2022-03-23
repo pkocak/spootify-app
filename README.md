@@ -7,6 +7,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 You must login the app with a valid Spotify account for accessing to dashboard.
 You can follow this [link](https://www.spotify.com/) to sign up on Spotify.
 
+## Run the project in docker
+
+### Build docker image
+
+`docker build -t <image-name> .`
+
+### Run app in docker
+
+`docker run -d -p <available-port>:3000 <image-name>`
+
+**Note: After run docker run command, you can view the app on localhost:`<available-port>`!**
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -49,8 +61,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
 # spootify-app
+
 # spootify-app
+
 # spootify-app
+
 # spootify-app
+
 # spootify-app
